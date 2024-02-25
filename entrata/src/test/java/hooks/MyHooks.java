@@ -28,11 +28,9 @@ public class MyHooks {
 
 	@After
 	public void tearDown(Scenario sc) {
-		System.out.println("Tear Down method is invoked.");
 		String scenarioName= sc.getName().replace(" ", "_");
 		if(sc.isFailed())
 		{
-			System.out.println("Taking sceenshort section.");
 
 			byte[] screenSort=((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			sc.attach(screenSort, "image/png", scenarioName);
