@@ -11,7 +11,7 @@ Prerequisites: Ensure that you have the following installed:
 Java Development Kit (JDK)
 Eclipse IDE
 Required dependencies and libraries
-Cloning the Repository: Clone this repository to your local machine using Git:
+Cloning the Repository: Clone this repository to your local machine using Git: https://github.com/nirgunbhosle/entrata_automation.git
 
 Importing Project into Eclipse:
 
